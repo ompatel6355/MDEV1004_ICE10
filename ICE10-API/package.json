@@ -1,0 +1,30 @@
+{
+  "name": "mdev1004-m2024-ice10-api",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc",
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.0.1",
+    "morgan": "^1.10.0",
+    "stripe": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.6",
+    "@types/debug": "^4.1.12",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.17.10",
+    "@types/http-errors": "^2.0.4",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.10.0"
+  }
+}
