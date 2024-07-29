@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var paymentSheet: PaymentSheet
     private var clientSecret: String = ""
-    private val publishableKey = "pk_test_51PhfMN2M3NXwxZNYNrS1cghvDhlBaA1XmKChBHUCRGAeRekXhyXVKjJWWwjXyWql9QF5cjyUq1YrbNqcXBnwGZCI00FEJUkvrt" // Replace with your actual publishable key
+    private val publishableKey = "pk_test_51PhfMN2M3NXwxZNYNrS1cghvDhlBaA1XmKChBHUCRGAeRekXhyXVKjJWWwjXyWql9QF5cjyUq1YrbNqcXBnwGZCI00FEJUkvrt" 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
