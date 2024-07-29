@@ -1,6 +1,6 @@
 const express = require('express');
 const Stripe = require('stripe');
-const stripe = Stripe('sk_test_51PhfMN2M3NXwxZNYlCYeUlszLhBTJ8lvA0LpRBqJUsyIldZ2AWVJXj1hWqswYVK8RNIPxqzS0PjYLeLeEXs7bK7Q00oKXSEEFE'); // Replace with your Stripe secret key
+const stripe = Stripe(''); // Stripe secret key
 
 const app = express();
 app.use(express.json());
